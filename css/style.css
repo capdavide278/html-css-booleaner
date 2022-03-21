@@ -29,18 +29,23 @@ section.logo{
     margin-left: 8px;
 }
 
+
 .scritta{
     color: lightgray;
 }
 
-.underline{
+.colore{
     color: DodgerBlue;
 }
 
+
+/* rimpicciolimento delle frasi sotto le foto */
 .rimpicciolire{
     font-size: small;
 }
 
+
+/* parole evidenziate all'interno degli spam */
 .evidenziare, .new_evidenziare{
     background-color:yellow;
 }
@@ -57,7 +62,7 @@ tr:nth-child(2n + 0) {
 }
 
 
-
+/* rifinitura del paragrafo e delle immagini */
 p{
     color: grey;
 }

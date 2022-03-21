@@ -3,25 +3,30 @@
     padding: 0;
 }
 
-.testata{
+header{
+    background-size: contain;
+    height: 100px;
+    width: 100%;
+    background-image: url('../immagini/pattern.png');
     background-color: CornflowerBlue; 
-    margin: 0;
-    padding: 0;
 }
 
-.sottosfondo{
-    width: 300px;
-    height: 95px;
-    background-repeat: repeat-x;
-}
-
-.margine{
-    margin-left: 8px;
-}
-
-.logo{
+.logo img{
     width: 120px;
     height: 85px;
+    left: auto;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+section.logo{
+    margin-top: 0;
+}
+
+
+/*margine perspostare il corpo più a destra*/
+.margine{
+    margin-left: 8px;
 }
 
 .scritta{
@@ -54,29 +59,19 @@ tr:nth-child(2n + 0) {
 
 
 p{
-    color: lightgrey;
+    color: grey;
 }
 
-.container{
+.container, .container2{
     position: relative;
     text-align: left;
     color: white;
 }
 
-.scritta1{
+.scritta1, .scritta2{
     position: absolute;
     top: 20px;
     text-align: center;
-}
-
-.container2{
-    position: relative;
-    text-align: left;
-    color: white;
-}
-
-.scritta2{
-    position: absolute;
-    top: 20px;
-    text-align: center;
+    margin-left: 20px;
+    font-size: 25px;
 }

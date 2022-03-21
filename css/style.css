@@ -1,3 +1,55 @@
-#head{
-    background-color: aqua;
+.testata{
+    background-color: CornflowerBlue;   
+}
+
+.logo{
+    width: 120px;
+    height: 85px;
+}
+
+tr:nth-child(2n + 0) { background-color: DarkTurquoise; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{
+    color: lightgrey;
+}
+
+.container{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.scritta1{
+    position: absolute;
+    top: 15px;
+    text-align: center;
+}
+
+.container2{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.scritta2{
+    position: absolute;
+    top: 15px;
+    text-align: center;
 }

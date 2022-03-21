@@ -1,5 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .testata{
-    background-color: CornflowerBlue;  
+    background-color: CornflowerBlue; 
+    margin: 0;
+    padding: 0;
+}
+
+.sottosfondo{
+    width: 120px;
+    height: 85px;
+    background-repeat: repeat-x;
+}
+
+.margine{
+    margin-left: 8px;
 }
 
 .logo{

@@ -7,22 +7,23 @@
     height: 85px;
 }
 
+.scritta{
+    color: lightgray;
+}
+
+.underline{
+    color: DodgerBlue;
+}
+
+.rimpicciolire{
+    font-size: small;
+}
+
+th{
+    background-color: DarkTurquoise;
+}
+
 tr:nth-child(2n + 0) { background-color: DarkTurquoise; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

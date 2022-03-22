@@ -47,7 +47,9 @@ section.logo{
     background-color:yellow;
 }
 
-
+#lista{
+    padding-left: 15px;
+}
 
 th{
     background-color: DarkTurquoise;

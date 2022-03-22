@@ -4,11 +4,9 @@
 }
 
 header{
-    background-size: contain;
-    height: 100px;
-    width: 100%;
     background-image: url('../immagini/pattern.png');
     background-color: CornflowerBlue; 
+    background-size:460px;
 }
 
 .logo img{
@@ -55,6 +53,9 @@ section.logo{
 
 table{
     border-spacing: 0;
+    width:75%; 
+    border:1;
+    text-align: center;
 }
 
 

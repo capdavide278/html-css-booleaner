@@ -51,6 +51,13 @@ section.logo{
     padding-left: 15px;
 }
 
+/* modifiche lista */
+
+table{
+    border-spacing: 0;
+}
+
+
 th{
     background-color: DarkTurquoise;
     color:white;
